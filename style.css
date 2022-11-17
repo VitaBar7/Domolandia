@@ -1,0 +1,115 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+h1 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 6rem;
+    color: rgb(255, 230, 0);
+    text-align: center;
+    text-shadow: black; 
+}
+
+hr {
+    color: white;
+    margin-top: 20px;
+}
+
+p{
+    font-family: 'Special Elite', cursive;
+    font-size: 1.5em;
+    margin:30px;
+}
+main {
+    width: 100vw;
+    height: 100vh;
+}
+.home {
+    background-image: url("https://images.pexels.com/photos/131634/pexels-photo-131634.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+}
+
+.video {
+    background-image: url("https://images.pexels.com/photos/57043/pexels-photo-57043.jpeg");
+    background-position: center;
+}
+
+.games {
+    background-image: url("https://wallpapercave.com/wp/XjrChAu.jpg");
+
+}
+
+.recipes {
+    background-image: url("https://images.pexels.com/photos/4199098/pexels-photo-4199098.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-position: center;
+    background: cover;
+
+}
+
+.domolandia {
+    padding-top: 25px;
+    background-color: none;
+}
+
+.intro {
+    margin-top: 50px;
+    margin-left: 20px;
+    padding-top: 20px;
+    border-radius: 50px;
+    width: 50%;
+    height: 200px;
+    background-color:rgba(34, 34, 97, 0.562);
+    color: whitesmoke;
+    text-align: center;
+
+}
+
+nav {
+    margin-top: 100px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around; 
+    padding: 10px;
+    background-color:rgba(34, 34, 97, 0.562);
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1.5em;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color:white;
+}
+
+a:hover {
+    color: yellow;
+}
+
+@media only screen and (max-width: 768px) {
+    h1 {
+        font-size: 4.5em;
+    }
+    p {
+        font-size: 1.3em;
+    }
+    a {
+        font-size: .8em;
+    }
+    
+}
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 3em;
+    }
+    p {
+        font-size: 1.2em;
+    }
+    a {
+        font-size: .6em;
+    }
+    
+}
